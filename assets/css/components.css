@@ -1,0 +1,78 @@
+.content-line-vetor {
+    display: flex;
+    align-items: baseline;
+    gap: 1%;
+}
+
+/*butões entrar em contato*/
+.button {
+    display: inline-flex;
+    height: 4.8rem;
+    padding: 0.8rem 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: var(--font-open-sans);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 140%;
+    transition: transform 0.3s ease;
+}
+
+.button-primary {
+    background: var(--white);
+    color: var(--black-900);
+}
+
+.button-secondary {
+    background: transparent;
+    color: var(--gray-25);
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+
+/* Call to Action Section*/
+
+.cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: var(--font-open-sans);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.cta-link img {
+    width: 2rem;
+    height: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.cta-link:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+.cta-link:hover img {
+    transform: translateX(5px);
+}
+
+#cta-primary {
+    margin-left: 3.2rem;
+    color: var(--gray-25);
+}
+
+#cta-secondary {
+    color: var(--black-900);
+}
+
+#cta-tertiary {
+    color: var(--gray-25);
+}

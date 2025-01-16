@@ -1,0 +1,61 @@
+:root {
+    --White: #FFF;
+    --black-25: #F7F7F8;
+    --black-50: #E7E8E9;
+    --black-100: #B7BABC;
+    --black-200: #878B8F;
+    --black-300: #707479;
+    --black-400: #40464D;
+    --black-500: #101820;
+    --black-600: #101820;
+    --black-700: #0E161D;
+    --black-800: #0D131A;
+    --black-900: #070B0E;
+
+    --gray-25: #FCFCFC;
+    --gray-50: #FBFBFB;
+    --gray-100: #F7F7F7;
+    --gray-200: #F0F0EF;
+    --gray-300: #E8E8E6;
+    --gray-400: #E1E1DE;
+    --gray-500: #D9D9D6;
+    --gray-600: #AEAEAB;
+    --gray-700: #828280;
+    --gray-800: #575756;
+    --gray-900: #2B2B2B;
+
+    --font-size-14p: 14px;
+    --font-size-16p: 16px;
+    --font-size-18p: 18px;
+    --font-size-20p: 20px;
+    --font-size-28p: 28px;
+    --font-size-32p: 32px;
+    --font-size-40p: 40px;
+    --font-size-48p: 48px;
+
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --line-height-110: 110%;
+    --line-height-120: 120%;
+    --line-height-130: 130%;
+    --line-height-140: 140%;
+    --line-height-150: 150%;
+
+    --font-style-normal: normal;
+    --font-open-sans: 'Open Sans', sans-serif;
+
+    --white: #FFF;
+    --black-900: #070B0E;
+
+    /* Tamanhos */
+    --header-height: 8rem;
+    --container-padding: 1.5rem;
+
+    /* Breakpoints */
+    --mobile: 480px;
+    --tablet: 768px;
+    --laptop: 1024px;
+    --desktop: 1200px;
+}
