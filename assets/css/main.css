@@ -4,9 +4,13 @@ header {
     width: 100%;
     height: var(--header-height);
     z-index: 1000;
-    background-color: var(--black-900);
+    background-color: var(--black-700, #0E161D);
     /* background: transparent;*/
-    opacity: 0.95;
+
+    /*inspeção */
+    opacity: 0.98;
+    border-bottom: 1px solid var(--gray-25);
+    /*inspeção */
 }
 
 header .container {
