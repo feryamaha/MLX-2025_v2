@@ -27,7 +27,6 @@ header .container {
 }
 
 .div-content-text-header a {
-    text-decoration: none;
     font-family: var(--font-open-sans);
     color: var(--white);
     font-size: 1.2rem;
@@ -42,25 +41,15 @@ header .container {
 
 /* layouts/banner1.css */
 .section-banner1 {
-    position: relative;
     width: 100%;
     min-height: 60rem;
     overflow: hidden;
+    background: url(/assets/img/bg-home-section.webp) center/cover no-repeat;
 }
 
-.section-banner1 .bg-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .section-banner1 .container {
-    position: relative;
     height: 100%;
-    z-index: 2;
     display: flex;
     align-items: flex-end;
     padding-bottom: 4.8rem;
@@ -101,7 +90,6 @@ header .container {
     background: var(--gray-300);
     overflow: hidden;
     white-space: nowrap;
-    position: relative;
 }
 
 .scroller-content {
@@ -152,97 +140,31 @@ header .container {
 /*-----section scroller-----*/
 
 /* layouts/banner2.css */
-.section-banner2 {
-    position: relative;
-    width: 100%;
-    min-height: 81.2rem;
-    background-color: var(--white);
-    overflow: hidden;
-}
 
-
-
-/* Background Container */
-.banner2-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.img1-banner2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-/* Container Principal */
-.section-banner2 .container {
-    position: relative;
-    height: 100%;
-    min-height: 81.2rem;
-    display: flex;
-    align-items: center;
-    z-index: 2;
-}
-
-/* Área de Conteúdo */
-.banner2-content {
-    width: 100%;
-    max-width: 59.9rem;
-    margin: 0;
-    padding: 8rem 0;
-}
-
-.text-content-banner2-h3 {
-    color: var(--black-900);
-    font-family: var(--font-open-sans);
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 150%;
-    margin-bottom: 2rem;
-}
-
-.text-content-banner2-h2 {
-    color: var(--black-900);
-    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
-    font-size: clamp(3.2rem, 4vw, 4rem);
-    font-weight: 600;
-    line-height: 120%;
-    letter-spacing: 0.4px;
-    margin-bottom: 1.6rem;
-}
-
-.text-content-banner2-h3-2 {
-    color: var(--black-400);
-    font-family: var(--font-open-sans);
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 150%;
-    margin-bottom: 4rem;
-}
-
-/*-----section banner 2-----*/
 
 /*-----section banner 3-----*/
 
 .section-banner3 {
     position: relative;
     width: 100%;
-    padding: 8rem 0;
     background-color: var(--black-700, #0E161D);
     overflow: hidden;
+    padding: 8rem 0;
+}
+
+.section-banner3 .container {
+    position: relative;
+    height: 100%;
+}
+
+.b3-content {
+    margin-bottom: 7.2rem;
 }
 
 /* Header Content */
 .banner3-header {
-    position: relative;
-    margin-bottom: 6rem;
+    top: 60px;
+    margin-bottom: 1.6rem;
 }
 
 .text-content-banner3h31 {
@@ -254,10 +176,11 @@ header .container {
 }
 
 .text-content-banner3h21 {
-    max-width: 72.5rem;
+    padding-top: 2.2rem;
+    max-width: 40.4rem;
     color: var(--gray-25);
     font-family: "Neue Haas Grotesk Display Pro", sans-serif;
-    font-size: clamp(2.8rem, 3vw, 3.2rem);
+    font-size: clamp(2.8rem, 2vw, 3.2rem);
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0.4px;
@@ -363,6 +286,12 @@ header .container {
     transform: translate(5px, -5px);
 }
 
+#vetor-grid-form {
+    position: absolute;
+    top: -102.5px;
+    right: 0;
+}
+
 /*----SECTION BANNER 4----*/
 
 .section-banner4 {
@@ -387,7 +316,7 @@ header .container {
 }
 
 .banner4-header p {
-    max-width: 62.9rem;
+    max-width: 78.5rem;
     color: var(--black-900);
     font-family: "Neue Haas Grotesk Display Pro", sans-serif;
     font-size: clamp(2.8rem, 3vw, 3.2rem);
@@ -446,6 +375,142 @@ header .container {
 .benefit-card:hover {
     transform: translateY(-5px);
 }
+
+/**/
+/*COMPONENTES - cto*/
+
+.section-CEO {
+    height: 515px;
+    height: auto;
+    background: var(--Cinza-Claro-900, #2B2B2B);
+}
+
+.section-CEO .container {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wrapper-content-CEO {
+    padding-top: 92px;
+    width: 629px;
+}
+
+.wrapper-content-bn4 {
+    width: 875px;
+}
+
+.box-line-vetor h3 {
+    color: var(--Cinza-Claro-25, #FCFCFC);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 6.4rem;
+}
+
+.section-CEO h2 {
+    color: var(--Cinza-Claro-25, #FCFCFC);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    padding-bottom: 1.6rem;
+}
+
+.text-content h3 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.img-ceo {
+    background-image: url(/assets/img/img-ceo-cofounder.webp);
+    background-size: cover;
+    height: 515px;
+    width: 35%;
+}
+
+.wrapper-content-bn4 h3 {
+    margin-bottom: 100px;
+    color: var(--Preto-Charcoal-900, #070B0E);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.bn-4 h2 {
+    color: var(--Preto-Charcoal-900, #070B0E);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+
+.bn-3 h2 {
+
+    color: var(--Cinza-Claro-25, #FCFCFC);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    width: 504px;
+    margin-bottom: 16px;
+}
+
+.section-banner2 {
+    height: 752px;
+    background: url(/assets/img/bg-vision-section.webp) center/cover no-repeat;
+}
+
+.section-banner2 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wrapper-content-bn2 {
+    width: 635px;
+}
+
+.wrapper-content-bn2 h3 {
+    color: var(--Preto-Charcoal-900, #070B0E);
+}
+
+.bn-2 h2 {
+    color: var(--Preto-Charcoal-900, #070B0E);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+
+.bn-2 h3 {
+    color: var(--Preto-Charcoal-400, #40464D);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+/*COMPONENTES - COMPONENTES*/
 
 /* Footer */
 
