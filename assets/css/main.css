@@ -140,8 +140,6 @@ header .container {
 
 /*-----section scroller-----*/
 
-/* layouts/banner2.css */
-
 
 /*-----section banner 3-----*/
 
@@ -460,7 +458,6 @@ header .container {
 }
 
 .bn-3 h2 {
-
     color: var(--Cinza-Claro-25, #FCFCFC);
     font-family: "Neue Haas Grotesk Display Pro";
     font-size: 40px;
@@ -485,10 +482,12 @@ header .container {
 
 .wrapper-content-bn2 {
     width: 635px;
+    margin-top: 62px;
 }
 
 .wrapper-content-bn2 h3 {
     color: var(--Preto-Charcoal-900, #070B0E);
+
 }
 
 .bn-2 h2 {
@@ -499,6 +498,7 @@ header .container {
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0.4px;
+    padding-bottom: 1.4rem;
 }
 
 .bn-2 h3 {
@@ -508,6 +508,7 @@ header .container {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    padding-bottom: 3.2rem;
 }
 
 
@@ -522,6 +523,7 @@ header .container {
     padding: 8rem 0;
     background-color: var(--black-700, #0E161D);
     color: var(--white);
+    overflow-x: hidden;
 }
 
 /* Logo */
@@ -532,6 +534,18 @@ header .container {
 .footer-logo img {
     height: 2.4rem;
     width: auto;
+}
+
+.footer-cta h2 {
+    color: var(--Cinza-Claro-25, #FCFCFC);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    width: 493px;
+    margin-bottom: 3.2rem;
 }
 
 /* Grid Layout */
@@ -579,6 +593,8 @@ header .container {
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 3.2rem;
+    margin-bottom: 7rem;
+
 }
 
 /* Social Media */
@@ -622,4 +638,12 @@ header .container {
 .footer-info span,
 .contact-value {
     color: var(--gray-700);
+}
+
+.vetor-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
 }
