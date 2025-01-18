@@ -44,7 +44,7 @@ header .container {
     width: 100%;
     min-height: 60rem;
     overflow: hidden;
-    background: url(https://github.com/feryamaha/MLX-2025/blob/main/assets/img/bg-home-section.webp) center/cover no-repeat;
+    background-image: url(https://github.com/feryamaha/MLX-2025/blob/main/assets/img/bg-home-section.webp) center/cover no-repeat;
 }
 
 
@@ -432,7 +432,7 @@ header .container {
 }
 
 .img-ceo {
-    background-image: url(../assets/img/img-ceo-cofounder.webp);
+    background-image: url(.../assets/img/img-ceo-cofounder.webp);
     background-size: cover;
     height: 515px;
     width: 35%;
@@ -473,7 +473,7 @@ header .container {
 
 .section-banner2 {
     height: 752px;
-    background: url(../assets/img/bg-vision-section.webp) center/cover no-repeat;
+    background: url(.../assets/img/bg-vision-section.webp) center/cover no-repeat;
 }
 
 .section-banner2 .container {
