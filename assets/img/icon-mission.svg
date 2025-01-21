@@ -1,17 +1,9 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="32" height="32" fill="#1E1E1E"/>
-<g id="2" clip-path="url(#clip0_99_8)">
+<g clip-path="url(#clip0_99_8)">
 <rect width="1440" height="4427" transform="translate(-48 -3033)" fill="#0E161D"/>
-<g id="Frame 36">
 <rect width="1440" height="586" transform="translate(-48 -329)" fill="white"/>
-<g id="Group 3424">
-<g id="Group 3420">
-<g id="Frame 37">
-<path id="Vector" d="M8.5 10.5L23.4894 10.5C23.2258 16.7076 18.0779 21.66 11.7517 21.66L8.5 21.66L8.5 10.5Z" fill="#868684" fill-opacity="0.06" stroke="url(#paint0_linear_99_8)"/>
-</g>
-</g>
-</g>
-</g>
+<path d="M8.5 10.5L23.4894 10.5C23.2258 16.7076 18.0779 21.66 11.7517 21.66L8.5 21.66L8.5 10.5Z" fill="#868684" fill-opacity="0.06" stroke="url(#paint0_linear_99_8)"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_99_8" x1="10.222" y1="20.9052" x2="17.3324" y2="15.1019" gradientUnits="userSpaceOnUse">

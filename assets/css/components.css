@@ -1,4 +1,3 @@
-/* TEXT TYPOGRAPH - COMPONENT */
 a {
     font-family: "Open Sans";
     font-size: 1.4rem;
@@ -18,7 +17,7 @@ p {
 
 h1 {
     font-family: "Open Sans";
-    font-size: clamp(3.2rem, 3vw, 4.8rem);
+    font-size: clamp(3rem, 4vw, 4.8rem);
     font-style: normal;
     font-weight: 700;
     line-height: 110%
@@ -26,7 +25,7 @@ h1 {
 
 h2 {
     font-family: "Neue Haas Grotesk Display Pro";
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
@@ -35,7 +34,7 @@ h2 {
 
 h3 {
     font-family: "Open Sans";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%
@@ -50,20 +49,18 @@ h4 {
 }
 
 h5 {
+    color: var(--black-900);
     font-family: "Neue Haas Grotesk Display Pro";
-    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
     line-height: 140%
 }
 
-/*  TEXT COLOR SETTINGS - COMPONENT */
-
 .wrapper-content-bn2 h3, .wrapper-content-bn4 h3, .bn2 h2, .bn-4 h2, .section-banner4 {
     color: var(--Preto-Charcoal-900, #070B0E)
 }
 
-h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .contact-label, .contact-value {
+h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .contact-label {
     color: var(--Cinza-Claro-25, #FCFCFC)
 }
 
@@ -71,24 +68,20 @@ h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .con
     color: var(--white)
 }
 
-
-/* LINE VETOR -COMPONENT */
-
 .box-line-vetor {
-    width: 400px;
+    width: 25rem;
     display: flex;
     align-items: baseline;
     gap: .8rem
 }
 
 .box-line-vetor h3 {
-    font-size: 14px;
+    font-size: .875rem;
     font-style: normal;
     font-weight: 600;
     margin-bottom: 64px
 }
 
-/* BUTTONS - COMPONENT */
 .button {
     display: inline-flex;
     height: 4rem;
@@ -101,13 +94,13 @@ h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .con
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 140%;
+    background: var(--white);
+    color: var(--black-900);
     transition: transform .3s ease
 }
 
-.button-primary {
-    margin-right: 3.2rem;
-    background: var(--white);
-    color: var(--black-900)
+.button-secondary {
+    margin-right: 3.2rem
 }
 
 .button:hover {
@@ -149,5 +142,5 @@ h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .con
 }
 
 .cta-link-tertiary {
-    margin-bottom: 72px
+    margin-bottom: 4.5rem
 }

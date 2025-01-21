@@ -1,65 +1,322 @@
 @media screen and (min-width:1025px) {
     .menu-square {
-        display: none;
+        display: none
     }
 }
 
-
 @media screen and (max-width:1440px) {
+    .div-content-text-header a {
+        font-size: .875rem
+    }
+
     .service-card h4 {
-        font-size: 1.8rem;
+        font-size: 1.4rem
     }
 
     .button {
-        font-size: 1.4rem;
+        font-size: 1rem;
+        height: 3rem;
+        padding: .6rem 1.5rem
+    }
+
+    #img-ceo {
+        right: 0;
+        height: 580px
     }
 }
 
-@media screen and (max-width:1200px) {
-    .div-content-text-header a {
-        font-size: 1rem;
+@media screen and (max-width:1280px) {
+    header .container {
+        padding: 2rem 2rem
+    }
+
+    .button {
+        font-size: .875rem;
+        height: 2.5rem;
+        padding: .4rem .8rem
+    }
+
+    .bn-ceo h2 {
+        font-size: 2rem
+    }
+
+    .bn-ceo h3 {
+        font-size: 1rem
+    }
+
+    .wrapper-content-CEO {
+        width: 28rem
+    }
+
+    #img-ceo {
+        right: 0;
+        height: 490px
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .footer-social a, .copyright, .credits {
+        font-size: 1rem
+    }
+
+    .footer-bottom {
+        margin-bottom: 2.5rem
     }
 }
 
 @media screen and (max-width:1024px) {
-
-    .div-content-text-header a, .button {
-        display: none;
+    .menu-square {
+        display: none
     }
 
-    header .container {
-        justify-content: space-evenly;
+    .service-card-overlay {
+        padding: 2.5rem
     }
 
-
-    .section-banner1 {
-        background-image: url(../img/bg-home-section-1024.webp);
+    .bn-2 {
+        width: 80%
     }
 
-    .text-content {
-        width: 80%;
+    .bn-4 {
+        width: 100%
     }
 
     .box-img-ceo {
-        display: none;
-    }
-
-
-    .section-banner2 {
-        background: url(../img/bg-vision-section-mobile.webp) center/cover no-repeat;
+        display: none
     }
 
     .benefits-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 4rem;
-        margin-top: 4rem
+        gap: 2rem
     }
 
+    .benefit-card p {
+        font-size: 1.2rem
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr
+    }
+
+    #img-ceo {
+        bottom: -32px
+    }
+
+    .footer-bottom {
+        margin-bottom: 1.5rem
+    }
+}
+
+@media screen and (max-width:992px) {
+    .menu-square {
+        display: block
+    }
+
+    .div-content-text-header, .button-primary {
+        display: none
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .service-card h4, .tag-soon p {
+        font-size: 1.2rem
+    }
+
+    .footer-bottom {
+        margin-bottom: 1rem
+    }
+}
+
+@media screen and (max-width:834px) {
+    .section-banner1 {
+        background-image: url(../img/bg-home-section-mobile.webp);
+        background-size: cover;
+        background-position: center
+    }
+
+    .bn-2 h2 {
+        font-size: 2.2rem
+    }
+
+    .bn-2 {
+        width: 60%
+    }
+
+    .bn-ceo h2 {
+        font-size: 1.8rem
+    }
+
+    .bn-ceo h3 {
+        font-size: .875rem;
+        width: 350px
+    }
+
+    .wrapper-content-bn4 {
+        width: 100%
+    }
+
+    .wrapper-content-bn4 h2, .footer-cta h2 {
+        font-size: 1.8rem
+    }
+
+    #img-ceo {
+        height: 400px
+    }
+
+    .footer-cta h2 {
+        width: 95%
+    }
+
+    .footer-contact p {
+        font-size: 1rem
+    }
+
+    .footer-social {
+        gap: 1rem
+    }
+
+    .footer-social a, .copyright, .credits {
+        font-size: .8rem
+    }
+
+    .footer-bottom {
+        margin-bottom: 0
+    }
 }
 
 @media screen and (max-width:768px) {
-    .div-content-text-header a {
-        font-size: 1rem;
+    .h1-content-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    h1 {
+        font-size: clamp(2rem, 5vw, 4.8rem)
+    }
+
+    .section-banner2 {
+        height: 100vh;
+        background: url(../img/bg-vision-section-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center 75%
+    }
+
+    .button {
+        font-size: 1.8rem;
+        width: 100%;
+        height: 4rem;
+        padding: .8rem 2rem;
+        margin: 0 auto;
+        margin-bottom: 2rem
+    }
+
+    .wrapper-content-bn2, .bn-2 {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:576px) {
+    .div-content-banner3-wrapper-img {
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .service-card h4 {
+        font-size: 2rem
+    }
+
+    #vetor-grid-form {
+        top: -120px
+    }
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .section-CEO {
+        height: 100vh
+    }
+
+    #img-ceo {
+        height: 60%;
+        margin: 0 auto;
+        left: 0
+    }
+
+    .wrapper-content-CEO, .bn-ceo, .bn-ceo h3 {
+        width: 100%
+    }
+
+    .footer {
+        padding: 4rem 0
+    }
+
+    .footer-logo img {
+        height: 2rem
+    }
+
+    .footer-cta h2 {
+        width: 100%
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem
+    }
+
+    .footer-contact {
+        max-width: 100%
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem
+    }
+
+    .footer-bottom a, .footer-bottom p {
+        font-size: .6rem
+    }
+
+    .footer-social {
+        width: 100%;
+        justify-content: space-around
+    }
+
+    .footer-info {
+        margin: 0 auto;
+        display: block;
+        text-align: center
+    }
+
+    .copyright {
+        margin-top: .65rem;
+        margin-bottom: 1.5rem
+    }
+
+    .credits {
+        margin-bottom: 1.5rem
+    }
+}
+
+@media screen and (max-width:480px) {
+    h1 {
+        font-size: 1.65rem
+    }
+
+    .box-line-vetor h3 {
+        margin-bottom: 34px
+    }
+
+    #vetor-grid-form {
+        position: absolute;
+        top: -150.5px;
+        right: -30px
     }
 }
