@@ -1,0 +1,65 @@
+@media screen and (min-width:1025px) {
+    .menu-square {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1440px) {
+    .service-card h4 {
+        font-size: 1.8rem;
+    }
+
+    .button {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .div-content-text-header a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .div-content-text-header a, .button {
+        display: none;
+    }
+
+    header .container {
+        justify-content: space-evenly;
+    }
+
+
+    .section-banner1 {
+        background-image: url(../img/bg-home-section-1024.webp);
+    }
+
+    .text-content {
+        width: 80%;
+    }
+
+    .box-img-ceo {
+        display: none;
+    }
+
+
+    .section-banner2 {
+        background: url(../img/bg-vision-section-mobile.webp) center/cover no-repeat;
+    }
+
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        margin-top: 4rem
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .div-content-text-header a {
+        font-size: 1rem;
+    }
+}

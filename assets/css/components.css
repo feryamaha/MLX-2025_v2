@@ -1,15 +1,98 @@
+/* TEXT TYPOGRAPH - COMPONENT */
+a {
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    transition: opacity .3s ease
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-size: clamp(3.2rem, 3vw, 4.8rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%
+}
+
+h2 {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: .4px
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+h4 {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%
+}
+
+h5 {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%
+}
+
+/*  TEXT COLOR SETTINGS - COMPONENT */
+
+.wrapper-content-bn2 h3, .wrapper-content-bn4 h3, .bn2 h2, .bn-4 h2, .section-banner4 {
+    color: var(--Preto-Charcoal-900, #070B0E)
+}
+
+h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .contact-label, .contact-value {
+    color: var(--Cinza-Claro-25, #FCFCFC)
+}
+
+.service-card-content h4, a, .copyright, .credits {
+    color: var(--white)
+}
+
+
+/* LINE VETOR -COMPONENT */
+
 .box-line-vetor {
     width: 400px;
     display: flex;
     align-items: baseline;
-    gap: .8rem;
+    gap: .8rem
 }
 
-/*butões entrar em contato*/
+.box-line-vetor h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 64px
+}
+
+/* BUTTONS - COMPONENT */
 .button {
     display: inline-flex;
     height: 4rem;
-    padding: 0.8rem 2rem;
+    padding: .8rem 2rem;
     align-items: center;
     justify-content: center;
     border-radius: 2px;
@@ -18,44 +101,38 @@
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 140%;
-    transition: transform 0.3s ease
+    transition: transform .3s ease
 }
 
 .button-primary {
+    margin-right: 3.2rem;
     background: var(--white);
     color: var(--black-900)
-}
-
-.button-secondary {
-    background: transparent;
-    color: var(--gray-25)
 }
 
 .button:hover {
     transform: translateY(-2px)
 }
 
-/* Call to Action Section*/
 .cta-link {
     display: inline-flex;
     align-items: center;
     gap: 1rem;
     cursor: pointer;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: opacity .3s ease, transform .3s ease;
     font-family: var(--font-open-sans);
     font-size: 1.8rem;
-    font-weight: 600;
     line-height: 140%
 }
 
 .cta-link img {
     width: 2rem;
     height: 2rem;
-    transition: transform 0.3s ease
+    transition: transform .3s ease
 }
 
 .cta-link:hover {
-    opacity: 0.8;
+    opacity: .8;
     transform: translateY(-2px)
 }
 
@@ -63,8 +140,7 @@
     transform: translateX(5px)
 }
 
-#cta-primary {
-    margin-left: 3.2rem;
+#cta-primary, #cta-tertiary {
     color: var(--gray-25)
 }
 
@@ -72,11 +148,6 @@
     color: var(--black-900)
 }
 
-#cta-tertiary {
-    color: var(--gray-25);
-
-}
-
 .cta-link-tertiary {
-    margin-bottom: 72px;
+    margin-bottom: 72px
 }
