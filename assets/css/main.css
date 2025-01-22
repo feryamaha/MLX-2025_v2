@@ -51,6 +51,7 @@ header .container {
     margin-bottom: 3.2rem
 }
 
+/* SCROLLER */
 .section-scroller {
     overflow-x: hidden;
     height: 106px;
@@ -89,7 +90,7 @@ header .container {
 .scroller-content h3 {
     font-family: "Neue Haas Grotesk Display Pro";
     color: var(--black-900);
-    font-size: 2rem;
+    font-size: 3.2rem;
     font-weight: 500;
     line-height: 130%
 }
@@ -97,7 +98,7 @@ header .container {
 .content-scroller-h5 h5 {
     font-family: "Open Sans";
     color: var(--black-900);
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 150%
 }
@@ -107,6 +108,7 @@ header .container {
     margin: 0 2.4rem
 }
 
+/* BANNER 2 */
 .section-banner2 {
     overflow-x: hidden;
     height: 752px;
@@ -122,8 +124,8 @@ header .container {
 }
 
 .wrapper-content-bn2 {
-    width: 39.7rem;
-    margin-top: 3.875rem
+    width: 65.3rem;
+    margin-top: 6.4rem
 }
 
 .bn-2 h2 {
@@ -135,6 +137,7 @@ header .container {
     padding-bottom: 3.2rem
 }
 
+/*BANNER 3*/
 .section-banner3 {
     overflow-x: hidden;
     position: relative;
@@ -149,8 +152,8 @@ header .container {
 }
 
 .bn-3 h2 {
-    width: 31.5rem;
-    margin-bottom: 1rem
+    width: 50.4rem;
+    margin-bottom: 1.6rem
 }
 
 .div-content-banner3-wrapper-img {
@@ -237,6 +240,7 @@ header .container {
     right: 0
 }
 
+/* BANNER 4 */
 .section-banner4 {
     overflow-x: hidden;
     z-index: 1;
@@ -247,7 +251,7 @@ header .container {
 }
 
 .wrapper-content-bn4 {
-    width: 54.7rem
+    width: 85rem
 }
 
 .benefits-grid {
@@ -292,10 +296,11 @@ header .container {
     transform: translateY(-5px)
 }
 
+/*SECTION CEO*/
 .section-CEO {
     overflow: hidden;
     position: relative;
-    height: auto;
+    height: 515px;
     background: var(--gray-900)
 }
 
@@ -306,7 +311,7 @@ header .container {
 
 .wrapper-content-CEO {
     padding: 5.75rem 0;
-    width: 39.375rem
+    width: 62.9rem
 }
 
 .section-CEO h2 {
@@ -317,9 +322,10 @@ header .container {
     position: absolute;
     bottom: -20px;
     right: 20px;
-    height: 600px
+    height: 57rem
 }
 
+/* FOOTER */
 .footer {
     overflow-x: hidden;
     position: relative;
@@ -327,6 +333,11 @@ header .container {
     padding: 8rem 0;
     background-color: var(--black-700);
     color: var(--white)
+}
+
+.footer .container {
+    margin-bottom: 10.5rem;
+    height: 515px
 }
 
 .footer-logo {
@@ -351,21 +362,27 @@ header .container {
 }
 
 .footer-contact {
-    max-width: 35.8rem
+    max-width: 35.8rem;
+    color: var(--gray-25)
 }
 
-.footer-contact p, .contact-value {
-    margin-bottom: 1.4rem
-}
-
-.footer-description {
+.footer-description, .label {
     font-weight: 600;
+    font-size: 1.6rem;
     margin-bottom: 2.4rem
 }
 
-.contact-label p {
-    font-weight: 600
+.info {
+    font-size: 1.6rem;
+    opacity: 0.8;
+    margin-bottom: .4rem
 }
+
+.value {
+    font-weight: 600;
+    margin-bottom: 1.2rem
+}
+
 
 .footer-bottom {
     display: flex;
@@ -389,17 +406,17 @@ header .container {
     opacity: .8
 }
 
-.footer-info {
-    display: flex;
-    align-items: center;
-    gap: 4rem
+.copyright, span {
+    font-size: 1.4rem;
+    font-weight: 400
 }
 
 .credits {
+    font-weight: 600;
     opacity: .8
 }
 
-.footer-info span, .contact-value {
+.credits, span {
     color: var(--gray-700)
 }
 
@@ -407,6 +424,5 @@ header .container {
     position: absolute;
     bottom: 0;
     width: 100%;
-    margin: 0 auto;
-    padding-top: 40px
+    margin: 0 auto
 }

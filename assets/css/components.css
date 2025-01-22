@@ -25,7 +25,7 @@ h1 {
 
 h2 {
     font-family: "Neue Haas Grotesk Display Pro";
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
@@ -34,7 +34,7 @@ h2 {
 
 h3 {
     font-family: "Open Sans";
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%
@@ -76,7 +76,7 @@ h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .con
 }
 
 .box-line-vetor h3 {
-    font-size: .875rem;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     margin-bottom: 64px
@@ -142,5 +142,5 @@ h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .con
 }
 
 .cta-link-tertiary {
-    margin-bottom: 4.5rem
+    margin-bottom: 6.4rem
 }
