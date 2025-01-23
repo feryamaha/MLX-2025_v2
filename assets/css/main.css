@@ -277,7 +277,6 @@ header .container {
     width: 100%;
     padding: 8rem 0;
     background-color: var(--white);
-    display: none;
 }
 
 .wrapper-content-benefits {

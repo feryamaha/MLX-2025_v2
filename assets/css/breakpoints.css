@@ -67,6 +67,15 @@
     .wrapper-content-vision {
         width: 44rem;
     }
+
+    .benefits-grid {
+        gap: 2rem;
+
+    }
+
+    .wrapper-content-benefits {
+        width: 100%
+    }
 }
 
 @media screen and (max-width:834px) {
@@ -78,6 +87,12 @@
 
     .text-content-ceo h3 {
         width: 80%;
+    }
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        margin-top: 4rem
     }
 }
 
