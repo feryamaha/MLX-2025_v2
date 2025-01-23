@@ -42,7 +42,8 @@
     }
 
     .menu-square {
-        display: block
+        display: block;
+        cursor: pointer;
     }
 
     header .container {
@@ -194,6 +195,10 @@
 }
 
 @media screen and (max-width:480px) {
+    header img {
+        max-width: 70%;
+    }
+
     h1 {
         font-size: 1.8rem
     }

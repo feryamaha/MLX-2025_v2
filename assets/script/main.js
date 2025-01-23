@@ -56,3 +56,22 @@ document.addEventListener('DOMContentLoaded', function () {
         scrollContinuously();
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    // Função para alternar a visibilidade do menu
+    function toggleMenu() {
+        if (navMenu.classList.contains('open')) {
+            navMenu.classList.remove('open');
+            navMenu.style.display = 'none'; // Esconde o menu
+        } else {
+            navMenu.classList.add('open');
+            navMenu.style.display = 'flex'; // Mostra o menu
+        }
+    }
+
+    // Adicionar evento de clique ao botão de menu
+    menuToggle.addEventListener('click', toggleMenu);
+});

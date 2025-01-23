@@ -24,6 +24,34 @@ header .container {
     opacity: .8
 }
 
+/* header menu responsivo */
+.header-nav-menu.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--black-700);
+    padding: 2rem 0;
+    z-index: 999;
+}
+
+.header-nav-menu.open a {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.header-nav-menu.open a:hover {
+    border-bottom: 1px solid var(--gray-25);
+    opacity: .4
+}
+
+.header-nav-menu.open .button-primary {
+    margin: 1rem auto;
+    display: block;
+}
+
 /*--section hero home--*/
 .s-hero-home {
     overflow-x: hidden;
