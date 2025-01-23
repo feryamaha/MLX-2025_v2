@@ -14,26 +14,27 @@ header .container {
     align-items: center
 }
 
-.div-content-text-header {
+.header-nav-menu {
     display: flex;
     align-items: center;
     gap: 2.1rem
 }
 
-.div-content-text-header a:hover {
+.header-nav-menu a:hover {
     opacity: .8
 }
 
-.section-banner1 {
+/*--section hero home--*/
+.s-hero-home {
     overflow-x: hidden;
     width: 100%;
     min-height: 60rem;
     background-image: url(../img/bg-home-section.webp);
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
-.section-banner1 .container {
+.s-hero-home .container {
     height: 100%;
     display: flex;
     align-items: flex-end;
@@ -41,17 +42,17 @@ header .container {
     margin-top: 57.4rem
 }
 
-.h1-content-banner {
+.wrapper-content-home {
     width: 100%;
     max-width: 78.4rem;
     margin: 0
 }
 
-.h1-titulo {
+.text-content-h1 {
     margin-bottom: 3.2rem
 }
 
-/* SCROLLER */
+/* --section hero scroller -- */
 .section-scroller {
     overflow-x: hidden;
     height: 106px;
@@ -59,7 +60,7 @@ header .container {
     justify-content: flex-end;
     align-self: stretch;
     overflow: hidden;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .scroller-content {
@@ -108,55 +109,55 @@ header .container {
     margin: 0 2.4rem
 }
 
-/* BANNER 2 */
-.section-banner2 {
+/*--section hero vision--*/
+.s-hero-vision {
     overflow-x: hidden;
     height: 752px;
     background: url(../img/bg-vision-section.webp) no-repeat;
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
-.section-banner2 .container {
+.s-hero-vision .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start
 }
 
-.wrapper-content-bn2 {
+.wrapper-content-vision {
     width: 65.3rem;
     margin-top: 6.4rem
 }
 
-.bn-2 h2 {
+.text-content-vision h2 {
     letter-spacing: .4px;
     padding-bottom: 1.4rem
 }
 
-.bn-2 h3 {
+.text-content-vision h3 {
     padding-bottom: 3.2rem
 }
 
-/*BANNER 3*/
-.section-banner3 {
+/*--section hero services--*/
+.s-hero-services {
     overflow-x: hidden;
     position: relative;
     width: 100%;
     background-color: var(--black-700);
-    padding: 8rem 0
+    padding: 8rem 0;
 }
 
-.section-banner3 .container {
+.s-hero-services .container {
     position: relative;
     height: 100%
 }
 
-.bn-3 h2 {
+.text-content-services h2 {
     width: 50.4rem;
     margin-bottom: 1.6rem
 }
 
-.div-content-banner3-wrapper-img {
+.wrapper-content-services-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.4rem;
@@ -196,7 +197,7 @@ header .container {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .8) 100%)
 }
 
-.service-card-content {
+.service-card-text {
     position: relative;
     color: var(--white)
 }
@@ -240,17 +241,18 @@ header .container {
     right: 0
 }
 
-/* BANNER 4 */
-.section-banner4 {
+/*--section hero benefits--*/
+.s-hero-benefits {
     overflow-x: hidden;
     z-index: 1;
     position: relative;
     width: 100%;
     padding: 8rem 0;
-    background-color: var(--white)
+    background-color: var(--white);
+    display: none;
 }
 
-.wrapper-content-bn4 {
+.wrapper-content-benefits {
     width: 85rem
 }
 
@@ -296,16 +298,17 @@ header .container {
     transform: translateY(-5px)
 }
 
-/*SECTION CEO*/
+/*--section hero CEO--*/
 .section-CEO {
     overflow: hidden;
     position: relative;
     height: 515px;
-    background: var(--gray-900)
+    background: var(--gray-900);
 }
 
 .section-CEO .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between
 }
 
@@ -325,14 +328,14 @@ header .container {
     height: 57rem
 }
 
-/* FOOTER */
+/* -- Footer -- */
 .footer {
     overflow-x: hidden;
     position: relative;
     width: 100%;
     padding: 8rem 0;
     background-color: var(--black-700);
-    color: var(--white)
+    color: var(--white);
 }
 
 .footer .container {
@@ -382,7 +385,6 @@ header .container {
     font-weight: 600;
     margin-bottom: 1.2rem
 }
-
 
 .footer-bottom {
     display: flex;

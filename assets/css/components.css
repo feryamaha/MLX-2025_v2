@@ -56,15 +56,26 @@ h5 {
     line-height: 140%
 }
 
-.wrapper-content-bn2 h3, .wrapper-content-bn4 h3, .bn2 h2, .bn-4 h2, .section-banner4 {
+.text-content-vision h2,
+.wrapper-content-vision h3,
+.wrapper-content-benefitsh3,
+.section-banner4, .text-content-benefits h2 {
     color: var(--Preto-Charcoal-900, #070B0E)
 }
 
-h1, .wrapper-content-CEO h3, .wrapper-content-bn3 h3, .bn-3 h2, .bn-ceo h2, .contact-label {
+h1,
+.wrapper-content-services h3,
+.text-content-services h2,
+.text-content-ceo h2,
+.wrapper-content-CEO h3,
+.contact-label {
     color: var(--Cinza-Claro-25, #FCFCFC)
 }
 
-.service-card-content h4, a, .copyright, .credits {
+a,
+.service-card-text h4,
+.copyright,
+.credits {
     color: var(--white)
 }
 
