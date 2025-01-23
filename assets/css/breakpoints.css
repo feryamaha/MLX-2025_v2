@@ -195,7 +195,7 @@
 
 @media screen and (max-width:480px) {
     h1 {
-        font-size: 2rem
+        font-size: 1.8rem
     }
 
     .s-hero-vision {
@@ -224,11 +224,15 @@
         width: 100%;
     }
 
+    .box-line-vetor h3 {
+        margin-bottom: 32px
+    }
+
 }
 
 @media screen and (max-width:340px) {
     h1 {
-        font-size: 1.6rem
+        font-size: 1.4rem
     }
 
     .service-card-text h4 {
@@ -256,7 +260,7 @@
 
 @media screen and (max-width:280px) {
     h1 {
-        font-size: 1.5rem
+        font-size: 1.2rem
     }
 
     .text-content-vision h2 {
