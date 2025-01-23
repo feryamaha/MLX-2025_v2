@@ -228,7 +228,7 @@
 
 @media screen and (max-width:320px) {
     h1 {
-        font-size: 1.8rem
+        font-size: 1.6rem
     }
 
     .service-card-text h4 {
@@ -249,6 +249,22 @@
 
     .copyright {
         font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width:280px) {
+    h1 {
+        font-size: 1.5rem
+    }
+
+    .text-content-vision h2 {
+        font-size: 2.4rem;
+    }
+
+    .wrapper-content-vision h3 {
+        font-size: 1.2rem;
     }
 
 }
