@@ -5,33 +5,32 @@
 }
 
 @media screen and (max-width:1280px) {
-
     #img-ceo {
         right: 0;
-        height: 54rem;
+        height: 54rem
     }
 
     .wrapper-content-CEO {
-        width: 60rem;
+        width: 60rem
     }
 }
 
 @media screen and (max-width:1200px) {
 
     .wrapper-content-vision {
-        width: 58rem;
+        width: 58rem
     }
 
     .service-card-text h4 {
-        font-size: 2.4rem;
+        font-size: 2.4rem
     }
 
     .wrapper-content-CEO {
-        width: 54rem;
+        width: 54rem
     }
 
     #img-ceo {
-        height: 48rem;
+        height: 48rem
     }
 }
 
@@ -43,7 +42,7 @@
 
     .menu-square {
         display: block;
-        cursor: pointer;
+        cursor: pointer
     }
 
     header .container {
@@ -55,11 +54,11 @@
     }
 
     .wrapper-content-CEO {
-        width: 50rem;
+        width: 50rem
     }
 
     #img-ceo {
-        height: 44rem;
+        height: 44rem
     }
 }
 
@@ -69,7 +68,7 @@
     }
 
     .benefits-grid {
-        gap: 2rem;
+        gap: 2rem
     }
 
     .wrapper-content-benefits {
@@ -78,14 +77,13 @@
 }
 
 @media screen and (max-width:834px) {
-
     #img-ceo {
         height: 40rem;
         right: -20px
     }
 
     .text-content-ceo h3 {
-        width: 80%;
+        width: 80%
     }
 
     .benefits-grid {
@@ -96,7 +94,7 @@
 @media screen and (max-width:768px) {
     .s-hero-vision {
         background-image: url(../img/bg-vision-section-mobile-2.webp);
-        background-size: cover;
+        background-size: cover
     }
 
     .wrapper-content-vision {
@@ -146,14 +144,13 @@
         display: flex;
         flex-direction: column;
         gap: 2.4rem;
-        margin-bottom: 0;
+        margin-bottom: 0
     }
-
 }
 
 @media screen and (max-width:560px) {
     .s-hero-home {
-        background-image: url(../img/bg-home-section-mobile.webp);
+        background-image: url(../img/bg-home-section-mobile.webp)
     }
 
     .s-hero-home .container {
@@ -175,7 +172,7 @@
     }
 
     .text-content-vision h2 {
-        font-size: 3.2rem;
+        font-size: 3.2rem
     }
 
     .text-content-vision h3 {
@@ -200,15 +197,13 @@
     }
 
     .footer-content {
-        grid-template-columns: none;
+        grid-template-columns: none
     }
-
-
 }
 
 @media screen and (max-width:480px) {
     header img {
-        max-width: 70%;
+        max-width: 70%
     }
 
     h1 {
@@ -225,20 +220,20 @@
     }
 
     #img-ceo {
-        height: 38rem;
+        height: 38rem
     }
 
     .text-content-ceo h2 {
-        font-size: 3rem;
+        font-size: 3rem
     }
 
     .footer-cta h2 {
         width: 100%;
-        font-size: 2.8rem;
+        font-size: 2.8rem
     }
 
     .button-tertiary {
-        width: 100%;
+        width: 100%
     }
 
     .box-line-vetor h3 {
@@ -246,9 +241,8 @@
     }
 
     .benefits-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr)
     }
-
 }
 
 @media screen and (max-width:340px) {
@@ -257,27 +251,25 @@
     }
 
     .service-card-text h4 {
-        font-size: 2rem;
+        font-size: 2rem
     }
 
     .text-content-services h2 {
-        font-size: 3.2rem;
+        font-size: 3.2rem
     }
 
     .wrapper-content-vision h3 {
-        font-size: 1.4rem;
+        font-size: 1.4rem
     }
 
     .footer-bottom a, p {
-        font-size: 1.2rem;
+        font-size: 1.2rem
     }
 
     .copyright {
-        font-size: 1rem;
+        font-size: 1rem
     }
-
 }
-
 
 @media screen and (max-width:280px) {
     h1 {
@@ -285,11 +277,10 @@
     }
 
     .text-content-vision h2 {
-        font-size: 2.4rem;
+        font-size: 2.4rem
     }
 
     .wrapper-content-vision h3 {
-        font-size: 1.2rem;
+        font-size: 1.2rem
     }
-
 }
