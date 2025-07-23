@@ -402,7 +402,7 @@ header .container {
 }
 
 .footer-cta h2 {
-  width: 493px;
+  max-width: 493px;
   margin-bottom: 3.2rem;
 }
 

@@ -244,6 +244,16 @@
   .benefits-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .bnf-retornos,
+  .bnf-conexoes,
+  .bnf-foco {
+    width: 100%;
+  }
+
+  .bnf-tendencia {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 380px) {
