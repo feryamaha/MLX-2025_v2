@@ -389,7 +389,6 @@ header .container {
 }
 
 .footer .container {
-  margin-bottom: 4rem;
   height: max-content;
 }
 
@@ -476,7 +475,6 @@ span {
 }
 
 .Decorative-footer-vector {
-  margin-top: 8rem;
   background-color: var(--black-700);
   width: 100%;
   margin: 0 auto;
