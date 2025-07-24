@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Lógica do scroller
     const scrollerContents = document.querySelectorAll('.scroller-content');
     const contentList = [
         { tag: 'h3', text: 'Expertise no setor de saúde não assistencial' },
@@ -55,13 +56,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         scrollContinuously();
     });
-});
 
-document.addEventListener('DOMContentLoaded', function () {
+    // Lógica do menu toggle
     const menuToggle = document.getElementById('menu-toggle');
     const navMenu = document.getElementById('nav-menu');
 
-    // Função para alternar a visibilidade do menu
     function toggleMenu() {
         if (navMenu.classList.contains('open')) {
             navMenu.classList.remove('open');
@@ -72,6 +71,23 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Adicionar evento de clique ao botão de menu
     menuToggle.addEventListener('click', toggleMenu);
+
+    // Lógica de rolagem suave para o botão "Entrar em contato" do header
+    const headerContactButton = document.getElementById('header-contact-btn');
+    headerContactButton.addEventListener('click', () => {
+        document.getElementById('CONTATO').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    // Lógica de rolagem suave para o botão "Entrar em contato"
+    const contactButton = document.querySelector('.button-secondary');
+    contactButton.addEventListener('click', () => {
+        document.getElementById('CONTATO').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    // Lógica para o botão do footer abrir o cliente de e-mail
+    const footerContactButton = document.getElementById('footer-contact-btn');
+    footerContactButton.addEventListener('click', () => {
+        window.location.href = 'mailto:secretaria@mlxcapital.com.br';
+    });
 });
