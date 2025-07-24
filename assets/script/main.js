@@ -73,14 +73,36 @@ document.addEventListener('DOMContentLoaded', function () {
 
     menuToggle.addEventListener('click', toggleMenu);
 
-    // Fechar o menu ao clicar em qualquer link ou botão dentro do .header-nav-menu
+    // Fechar o menu ao clicar em qualquer link ou botão dentro do .header-nav-menu, apenas em modo mobile
     const menuLinks = navMenu.querySelectorAll('a, #header-contact-btn');
     menuLinks.forEach(link => {
         link.addEventListener('click', () => {
-            navMenu.classList.remove('open');
-            navMenu.style.display = 'none'; // Esconde o menu
+            // Verifica se a largura da tela é menor ou igual a 1024px (breakpoint onde .menu-square é ativado)
+            if (window.innerWidth <= 1024) {
+                navMenu.classList.remove('open');
+                navMenu.style.display = 'none'; // Esconde o menu apenas no mobile
+            }
         });
     });
+
+    // Ajustar o menu ao redimensionar a janela
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 1024) {
+            // No desktop, garante que o menu esteja visível e sem a classe 'open'
+            navMenu.classList.remove('open');
+            navMenu.style.display = 'flex';
+        } else if (window.innerWidth <= 1024 && !navMenu.classList.contains('open')) {
+            // No mobile, garante que o menu esteja escondido se não estiver aberto
+            navMenu.style.display = 'none';
+        }
+    });
+
+    // Inicializar o estado do menu com base na largura da tela
+    if (window.innerWidth > 1024) {
+        navMenu.style.display = 'flex'; // Garante que o menu esteja visível no desktop ao carregar
+    } else {
+        navMenu.style.display = 'none'; // Garante que o menu esteja escondido no mobile ao carregar
+    }
 
     // Lógica de rolagem suave para o botão "Entrar em contato" do header
     const headerContactButton = document.getElementById('header-contact-btn');
