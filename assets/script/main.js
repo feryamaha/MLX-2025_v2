@@ -73,6 +73,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     menuToggle.addEventListener('click', toggleMenu);
 
+    // Fechar o menu ao clicar em qualquer link ou botão dentro do .header-nav-menu
+    const menuLinks = navMenu.querySelectorAll('a, #header-contact-btn');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navMenu.classList.remove('open');
+            navMenu.style.display = 'none'; // Esconde o menu
+        });
+    });
+
     // Lógica de rolagem suave para o botão "Entrar em contato" do header
     const headerContactButton = document.getElementById('header-contact-btn');
     headerContactButton.addEventListener('click', () => {
