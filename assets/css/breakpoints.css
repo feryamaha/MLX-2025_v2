@@ -202,7 +202,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 490px) {
   header img {
     max-width: 70%;
   }
@@ -248,11 +248,11 @@
   .bnf-retornos,
   .bnf-conexoes,
   .bnf-foco {
-    width: 100%;
+    max-width: 100%;
   }
 
   .bnf-tendencia {
-    width: 80%;
+    max-width: 80%;
   }
 }
 

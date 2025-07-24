@@ -306,16 +306,16 @@ header .container {
 }
 
 .bnf-retornos {
-  width: 271px;
+  max-width: 271px;
 }
 .bnf-conexoes {
-  width: 243px;
+  max-width: 243px;
 }
 .bnf-foco {
-  width: 234px;
+  max-width: 234px;
 }
 .bnf-tendencia {
-  width: 222px;
+  max-width: 222px;
 }
 
 .benefit-icon {
