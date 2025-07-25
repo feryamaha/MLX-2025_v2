@@ -113,3 +113,13 @@ Este projeto contempla as melhorias, ajustes visuais e alterações de conteúdo
 ---
 
 Todas as alterações acima foram solicitadas pelo próprio cliente MLX e Auclan Design, e devem ser implementadas conforme o projeto revisado no Figma.
+
+Para rodar seu projeto localmente em localhost:3000, utilize um dos comandos abaixo no terminal
+Usando o pacote serve (Node.js)
+npx serve -l 3000 .
+
+Ou, se preferir o Live Server do VS Code
+Instale a extensão Live Server.
+Clique com o botão direito no index.html e selecione "Open with Live Server".
+Se necessário, configure a porta para 3000 nas opções da extensão.
+Assim, o projeto ficará disponível em http://localhost:3000.

@@ -20,6 +20,10 @@ header .container {
   gap: 2.1rem;
 }
 
+.header-nav-menu a {
+  font-size: 1.4rem;
+}
+
 .header-nav-menu a:hover {
   opacity: 0.8;
 }
@@ -73,7 +77,7 @@ header .container {
 
 .wrapper-content-home {
   width: 100%;
-  max-width: 78.4rem;
+  max-width: 88.4rem;
   margin: 0;
 }
 
@@ -289,7 +293,7 @@ header .container {
 }
 
 .wrapper-content-benefits {
-  width: 66.2rem;
+  max-width: 76.2rem;
 }
 
 .benefits-grid {
@@ -407,7 +411,7 @@ header .container {
 }
 
 .footer-cta h2 {
-  max-width: 493px;
+  max-width: 58rem;
   margin-bottom: 3.2rem;
 }
 

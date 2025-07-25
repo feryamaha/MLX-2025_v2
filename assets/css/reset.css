@@ -2,33 +2,134 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    background-color: var(--black-900);
-
+  font-size: 62.5%;
+  background-color: var(--black-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-    display: inline-block;
-    text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 button {
-    background: var(--white);
-    border: 0;
-    cursor: pointer;
+  background: var(--white);
+  border: 0;
+  cursor: pointer;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
+}
+
+/* Open Sans */
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"),
+    url("./assets/fonts/OpenSans/OpenSans-Regular.woff") format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans/OpenSans-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/OpenSans/OpenSans-SemiBold.woff") format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"),
+    url("./assets/fonts/OpenSans/OpenSans-Bold.woff") format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans/OpenSans-Italic.woff2") format("woff2"),
+    url("./assets/fonts/OpenSans/OpenSans-Italic.woff") format("woff");
+
+  font-display: swap;
+}
+
+/* Neue Haas Grotesk Display Pro */
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-Regular.woff2")
+      format("woff2"),
+    url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-Regular.woff")
+      format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-SemiBold.woff2")
+      format("woff2"),
+    url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-SemiBold.woff")
+      format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-Bold.woff2")
+      format("woff2"),
+    url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-Bold.woff")
+      format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-Bold.woff2")
+      format("woff2"),
+    url("./assets/fonts/Neue/NeueHaasGroteskDisplayPro-Bold.woff")
+      format("woff");
+
+  font-display: swap;
+}
+
+/* Satoshi */
+@font-face {
+  font-family: "Satoshi";
+  src: url("./assets/fonts/Satoshi/Satoshi-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Satoshi/Satoshi-Regular.woff") format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./assets/fonts/Satoshi/Satoshi-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Satoshi/Satoshi-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./assets/fonts/Satoshi/Satoshi-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Satoshi/Satoshi-Bold.woff") format("woff");
+
+  font-display: swap;
 }
