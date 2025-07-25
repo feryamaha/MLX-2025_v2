@@ -121,4 +121,11 @@ document.addEventListener('DOMContentLoaded', function () {
     footerContactButton.addEventListener('click', () => {
         window.location.href = 'mailto:secretaria@mlxcapital.com.br';
     });
+
+    // Atualizar o ano no copyright automaticamente
+    const copyrightElement = document.querySelector('.copyright');
+    if (copyrightElement) {
+        const currentYear = new Date().getFullYear();
+        copyrightElement.textContent = `MLX Capital ${currentYear}. Todos os direitos reservados`;
+    }
 });

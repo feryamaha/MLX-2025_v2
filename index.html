@@ -4,19 +4,35 @@
 <head>
     <!-- Metadata and stylesheets for the page -->
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpA-Av5mohI.woff2" as="font"
-        type="font/woff2" crossorigin>
-    <link rel="preload"
-        href="https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff2"
-        as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap">
-    <link rel="preload" href="./assets/img/bg-home-section.webp" as="image">
+
+    <!-- SEO básico -->
+    <title>MLX Capital | Conectando Ativos de Saúde a Investidores Estratégicos</title>
+    <meta name="description"
+        content="Especialistas em conectar ativos de saúde no middle market a investidores estratégicos, oferecendo retornos lucrativos com expertise e inovação.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.mlxcapital.com.br/" />
+
+    <!-- Open Graph (Facebook, LinkedIn, etc) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MLX Capital - Conectando Saúde e Investidores" />
+    <meta property="og:description"
+        content="Unimos ativos de saúde inovadores a investidores estratégicos, maximizando retornos com expertise no middle market." />
+    <meta property="og:url" content="https://www.mlxcapital.com.br/" />
+    <meta property="og:image" content="https://www.mlxcapital.com.br/assets/img/mlx-marca.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MLX Capital - Conectando Saúde e Investidores" />
+    <meta name="twitter:description"
+        content="Conectamos ativos de saúde a investidores estratégicos para retornos lucrativos no middle market." />
+    <meta name="twitter:image" content="https://www.mlxcapital.com.br/assets/img/mlx-marca.jpg" />
+
+    <!-- Favicon -->
     <link rel="icon" href="./assets/img/favicon.svg" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="preload" href="./assets/img/bg-home-section.webp" as="image">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/components.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
@@ -24,7 +40,26 @@
     <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/breakpoints.css">
-    <title>MLX CAPITAL</title>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "MLX Capital - Conectando Ativos de Saúde a Investidores",
+      "url": "https://www.mlxcapital.com.br/",
+      "description": "Especialistas em conectar ativos de saúde no middle market a investidores estratégicos, oferecendo retornos lucrativos com expertise e inovação.",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@type": "Organization",
+        "name": "MLX Capital",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.mlxcapital.com.br/assets/img/mlx-marca.svg"
+        }
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -49,11 +84,8 @@
     <section class="s-hero-home" id="INICIO">
         <div class="container">
             <div class="wrapper-content-home">
-
                 <div class="text-content-h1">
-                    <h1>CONECTAMOS ATIVOS DE
-                        SÁUDE<br>A
-                        INVESTIDORES ESTRATÉGICOS</h1>
+                    <h1>CONECTAMOS ATIVOS DE SÁUDE<br>A INVESTIDORES ESTRATÉGICOS</h1>
                 </div>
                 <!--Primary contact button-->
                 <button class="button button-secondary">Entrar em contato</button>
@@ -63,7 +95,6 @@
             </div>
         </div>
     </section>
-
     <!--section hero vision-->
     <section class="s-hero-vision" id="SOBRE">
         <div class="container">
@@ -74,8 +105,7 @@
                     <h3>SOMOS A MLX CAPITAL</h3>
                 </div>
                 <div class="text-content-vision">
-                    <h2>Nosso objetivo é buscar retornos lucrativos no setor
-                        de saúde</h2>
+                    <h2>Nosso objetivo é buscar retornos lucrativos no setor de saúde</h2>
                     <h3>A MLX é especializada no middle market do setor de saúde, unindo expertise estratégica para
                         conectar investidores e oportunidades de alto potencial. Nossa equipe cultiva valores
                         fundamentais de integridade e excelência, maximizando resultados com dedicação e criatividade.
@@ -83,11 +113,10 @@
                 </div>
             </div>
             <!--COMPONENTE-->
-            <div class="cta-link cta-link-secondary"><a id="cta-secondary" href="#">Conhecer os serviços</a><img
+            <div class="cta-link cta-link-secondary"><a id="cta-secondary" href="#CONTATO">Conhecer os serviços</a><img
                     src="./assets/img/arrow-black-right.svg" alt="seta"></div>
         </div>
     </section>
-
     <!--section hero services-->
     <section class="s-hero-services" id="SERVIÇOS">
         <div class="container">
@@ -107,15 +136,13 @@
                     src="./assets/img/arrow-white-right.svg" alt="Seta"></div>
             <!-- Services Cards -->
             <div class="wrapper-content-services-cards">
-
                 <!-- Card 1 -->
                 <a class="service-card" href="#CONTATO">
                     <div class="service-card-image">
                         <img src="./assets/img/img-espec-cap-recursos.webp" alt="Captação de Recursos" loading="lazy">
                         <div class="service-card-overlay">
                             <div class="service-card-text">
-                                <h4>Captação
-                                    de Recursos</h4>
+                                <h4>Captação de Recursos</h4>
                             </div>
                         </div>
                     </div>
@@ -126,8 +153,7 @@
                             alt="Gestão de Recursos" loading="lazy">
                         <div class="service-card-overlay">
                             <div class="service-card-text">
-                                <h4>Gestão de
-                                    Recursos</h4>
+                                <h4>Gestão de Recursos</h4>
                             </div>
                         </div>
                     </div>
@@ -165,22 +191,19 @@
                     <div class="benefit-icon"><img src="./assets/img/icon-connection.svg" alt="Ícone Conexões">
                     </div>
                     <h5>Conexões</h5>
-                    <p>Conexão com os melhores ativos de
-                        middle market no setor de saúde.</p>
+                    <p>Conexão com os melhores ativos de middle market no setor de saúde.</p>
                 </div>
                 <!-- Foco -->
                 <div class="benefit-card bnf-foco">
                     <div class="benefit-icon"><img src="./assets/img/icon-focus.svg" alt="Ícone Foco"></div>
                     <h5>Foco</h5>
-                    <p>Soluções estratégicas com foco em ativos
-                        inovadores e disruptivos.</p>
+                    <p>Soluções estratégicas com foco em ativos inovadores e disruptivos.</p>
                 </div>
                 <!-- Tendência -->
                 <div class="benefit-card bnf-tendencia">
                     <div class="benefit-icon"><img src="./assets/img/icon-trend.svg" alt="Ícone Tendência"></div>
                     <h5>Tendência</h5>
-                    <p>Antecipação de tendências no
-                        setor.</p>
+                    <p>Antecipação de tendências no setor.</p>
                 </div>
             </div>
         </div>
@@ -195,8 +218,7 @@
                     <h3>CEO & CO-FOUNDER</h3>
                 </div>
                 <div class="text-content-ceo">
-                    <h2>Transformando expertise em resultados
-                        excepcionais</h2>
+                    <h2>Transformando expertise em resultados excepcionais</h2>
                     <h3>Com mais de 20 anos de experiência em posições estratégicas no setor de saúde, Flávio Leal
                         escolheu transformar seu conhecimento em oportunidades. Ao fundar a MLX Capital, decidiu
                         dedicar-se a gerar valor excepcional para investidores, identificando e desenvolvendo ativos de
@@ -207,7 +229,6 @@
             <div class="box-img-ceo">
                 <img id="img-ceo" src="./assets/img/img-ceo-cofounder.webp" alt="img-CEO">
             </div>
-
         </div>
     </section>
     <!-- Footer -->
@@ -232,7 +253,6 @@
                         mais sobre como a MLX pode ajudar sua empresa ou seu
                         portfólio de investimentos.</p>
                     <p class="label">Contatos</p>
-
                     <p class="info">Contato por e-mail</p>
                     <p class="value">secretaria@mlxcapital.com.br</p>
                 </div>
@@ -241,12 +261,13 @@
             <div class="footer-bottom">
                 <!-- Social Media -->
                 <div class="footer-social">
-                    <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                    <a href="https://www.instagram.com/mlx_capital/" target="_blank"
+                        rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.linkedin.com/company/mlx-capital-s-a" target="_blank"
+                        rel="noopener noreferrer">Linkedin</a>
                 </div>
                 <!-- Copyright and Credits -->
-                <p class="copyright">MLX Capital 2024. Todos os direitos
-                    reservados</p>
+                <p class="copyright">MLX Capital <span id="copyright-year"></span>. Todos os direitos reservados</p>
                 <p class="credits"><span>Feito por:</span> <a href="https://auclandesign.com/" target="_blank"
                         rel="noopener noreferrer">Auclan Design</a></p>
             </div>
@@ -256,7 +277,6 @@
             <img class="vetor-footer" src="./assets/img/vetor-footer.svg" alt>
         </div>
     </footer>
-
 </body>
 
 </html>
